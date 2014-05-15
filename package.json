@@ -1,0 +1,19 @@
+{
+  "name": "broccoli-requirejs",
+  "version": "0.1.0",
+  "description": "Run a Broccoli tree through the r.js optimizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "broccoli-plugin"
+  ],
+  "author": "Jonas Nicklas",
+  "license": "MIT",
+  "dependencies": {
+    "broccoli-writer": "^0.1.1",
+    "extend": "^1.2.1",
+    "rsvp": "^3.0.6"
+  }
+}
