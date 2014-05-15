@@ -15,7 +15,6 @@ function RequireJS (inputTree, options) {
 RequireJS.prototype.write = function (readTree, destDir) {
   return readTree(this.inputTree).then(function(path) {
     var options = extend({}, this.options, { appDir: path, dir: destDir });
-    console.log(options)
     return new Promise(function(accept, reject) {
       require("requirejs").optimize(options, accept, reject);
     });
