@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "broccoli-writer": "^0.1.1",
-    "extend": "^1.2.1",
+    "extend": "^2.0.2",
     "rsvp": "^3.0.6"
   }
 }
